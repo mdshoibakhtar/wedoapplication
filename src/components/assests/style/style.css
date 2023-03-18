@@ -1,0 +1,47 @@
+.offcanvas-backdrop.show {
+  background: none;
+}
+.offcanvas {
+  width: 50%;
+}
+#offcanvas-width {
+  width: 60%;
+}
+.rightnav span {
+  padding: 0 12px;
+}
+.cardSlide {
+  height: 100%;
+}
+.slider-wrapper {
+  height: 180px;
+}
+.cardSlide img {
+  height: 100%;
+}
+.animated {
+  height: 100%;
+}
+.thumbs-wrapper {
+  display: none;
+}
+.carousel-status {
+  display: none;
+}
+.circleCard {
+  margin: 3px;
+  border: solid 1px rgb(206, 185, 185);
+}
+.circleCard figure {
+  margin: 0rem;
+}
+.circleCard figure img {
+  width: 100%;
+}
+.bigSlePannel img {
+  width: 100%;
+}
+.font-size {
+  font-size: 13px;
+  font-weight: 500;
+}
