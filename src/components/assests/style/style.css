@@ -45,3 +45,13 @@
   font-size: 13px;
   font-weight: 500;
 }
+.fontsize {
+  font-size: 10px;
+}
+.cardImg figure img {
+  width: 100%;
+}
+.cardTitle figcaption {
+  font-size: 10px;
+  font-weight: 700;
+}

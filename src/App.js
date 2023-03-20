@@ -4,6 +4,8 @@ import { Wrapper } from "./components/mainSection/wrapper/Wrapper";
 import { CircleCard } from "./components/circleCard/CircleCard";
 import { BigSlaeWrapper } from "./components/bigSalePannel/BigSaleWrapper";
 import { ProductsCards } from "./components/productsCards/ProductsCards";
+import { CardCarousel } from "./components/cardSlider/CardCarousel";
+
 function App() {
   return (
     <div className="d-sm-block d-md-block d-xl-none">
@@ -12,6 +14,7 @@ function App() {
       <CircleCard />
       <BigSlaeWrapper />
       <ProductsCards />
+      <CardCarousel />
     </div>
   );
 }
