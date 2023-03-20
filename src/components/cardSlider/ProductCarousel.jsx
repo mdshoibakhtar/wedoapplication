@@ -3,7 +3,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 export const ProductCarousel = () => {
-  console.log(productData);
   const settings = {
     dots: true,
     infinite: true,
@@ -17,9 +16,11 @@ export const ProductCarousel = () => {
       <div className="row">
         <Slider {...settings}>
           {productData.map((item) => {
-            console.log(item);
             return (
-              <div className="col-4 col-sm-4 border rounded mx-2 py-2">
+              <div
+                className="col-4 col-sm-4 border rounded mx-2 py-2"
+                key={item.id}
+              >
                 <div className="cardImg">
                   <figure>
                     <img src={item.imgUrl} alt="img" />

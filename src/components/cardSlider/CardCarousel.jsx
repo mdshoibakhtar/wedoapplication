@@ -16,7 +16,6 @@ export const CardCarousel = () => {
       <div className="row">
         <Slider {...settings}>
           {sliderData.map((item) => {
-            console.log(item);
             return (
               <div
                 className="col-4 col-sm-4 border rounded mx-2 py-2"
