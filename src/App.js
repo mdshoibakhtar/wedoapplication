@@ -5,6 +5,7 @@ import { CircleCard } from "./components/circleCard/CircleCard";
 import { BigSlaeWrapper } from "./components/bigSalePannel/BigSaleWrapper";
 import { ProductsCards } from "./components/productsCards/ProductsCards";
 import { CardCarousel } from "./components/cardSlider/CardCarousel";
+import { ProductCarousel } from "./components/cardSlider/ProductCarousel";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <BigSlaeWrapper />
       <ProductsCards />
       <CardCarousel />
+      <ProductCarousel />
     </div>
   );
 }

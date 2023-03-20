@@ -1,9 +1,9 @@
-import sliderData from "./sliderData.json";
+import productData from "./productData.json";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-export const CardCarousel = () => {
-  //   console.log(sliderData);
+export const ProductCarousel = () => {
+  console.log(productData);
   const settings = {
     dots: true,
     infinite: true,
@@ -13,15 +13,13 @@ export const CardCarousel = () => {
   };
   return (
     <div className="container">
+      <hr />
       <div className="row">
         <Slider {...settings}>
-          {sliderData.map((item) => {
+          {productData.map((item) => {
             console.log(item);
             return (
-              <div
-                className="col-4 col-sm-4 border rounded mx-2 py-2"
-                key={item.id}
-              >
+              <div className="col-4 col-sm-4 border rounded mx-2 py-2">
                 <div className="cardImg">
                   <figure>
                     <img src={item.imgUrl} alt="img" />
@@ -40,6 +38,7 @@ export const CardCarousel = () => {
           })}
         </Slider>
       </div>
+      <hr />
     </div>
   );
 };
