@@ -6,7 +6,7 @@ export const ProductsItemList = () => {
     <div className="container">
       {product.map((value) => {
         return (
-          <div className="row align-items-center">
+          <div className="row align-items-center" key={value.id}>
             <div className="col-10">
               <div className="row ">
                 <div className="col-4 fanimg">

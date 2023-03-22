@@ -8,6 +8,7 @@ import { ProductCarousel } from "./components/cardSlider/ProductCarousel";
 
 import "./components/assests/style/style.css"
 import { ProductsItemList } from "./components/productItem/ProductsItemList";
+import { TopSectionCard } from "./components/topSectionCard/TopSectionCard";
 
 const productdHeaderTitle = "Product Item"
 const sugestedHeaderTitle = "Sugested for you"
@@ -23,6 +24,7 @@ function App() {
       <ProductCarousel />
       <ProductsCards data={productdHeaderTitle} />
       <ProductsItemList />
+      <TopSectionCard />
     </div>
   );
 }
