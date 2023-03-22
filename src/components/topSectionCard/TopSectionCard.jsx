@@ -6,13 +6,13 @@ export const TopSectionCard = () => {
       <div className="container p-0">
         <div className="mx-2">
           <div className="container">
-            <h5 className="text-light mb-3">Top section</h5>
+            <h5 className="text-light mb-3">Top section </h5>
           </div>
           <div className="row text-light">
             {data.map((item) => {
               return (
                 <div className="col-6  my-3">
-                  <div className="mx-2 border rounded-3 cardImg">
+                  <div className="ms-.5 border rounded-3 cardImg">
                     <figure>
                       <img src={item.imgUrl} alt="lap" />
                     </figure>
