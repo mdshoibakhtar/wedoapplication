@@ -1,0 +1,29 @@
+[
+    {
+        "id": "1",
+        "imgUrl": "https://d2xamzlzrdbdbn.cloudfront.net/products/3a063c5f-1bb7-443d-b6c8-cb9897b7b5ab22070810_182x182.jpg",
+        "title": "Havells swing fan",
+        "config": "400mm , Blue tone",
+        "offer": "20% off ",
+        "cutPrice": "1500",
+        "price": "1,299"
+    },
+    {
+        "id": "2",
+        "imgUrl": "https://d2xamzlzrdbdbn.cloudfront.net/products/3a063c5f-1bb7-443d-b6c8-cb9897b7b5ab22070810_182x182.jpg",
+        "title": "Havells swing fan",
+        "config": "400mm , Blue tone",
+        "offer": "20% off ",
+        "cutPrice": "1500",
+        "price": "1,299"
+    },
+    {
+        "id": "3",
+        "imgUrl": "https://d2xamzlzrdbdbn.cloudfront.net/products/3a063c5f-1bb7-443d-b6c8-cb9897b7b5ab22070810_182x182.jpg",
+        "title": "Havells swings fan",
+        "config": "400mm , Blue tone",
+        "offer": "20% off ",
+        "cutPrice": "1500",
+        "price": "1,299"
+    }
+]

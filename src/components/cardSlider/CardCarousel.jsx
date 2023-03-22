@@ -2,10 +2,13 @@ import sliderData from "./sliderData.json";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+
+import { BiRupee } from "react-icons/bi";
+
 export const CardCarousel = () => {
   //   console.log(sliderData);
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -18,7 +21,7 @@ export const CardCarousel = () => {
           {sliderData.map((item) => {
             return (
               <div
-                className="col-4 col-sm-4 border rounded mx-2 py-2"
+                className="col-4 col-sm-4 border rounded mx-2 py-2 cardWidth"
                 key={item.id}
               >
                 <div className="cardImg">
@@ -28,10 +31,14 @@ export const CardCarousel = () => {
                   <div className="p-2 cardTitle">
                     <figcaption>{item.title}</figcaption>
                   </div>
-                  <div className="p-2 ">
-                    <span>{item.offersec}</span>
-                    <s>{item.cutOff}</s>
-                    <span>{item.price}</span>
+                  <div className="p-2 fontsize ">
+                    <span className="text-warning me-1">{item.offersec}</span>
+
+                    <s className="text-muted">{item.cutOff}</s>
+                    <span className="text-dark">
+                      <BiRupee />
+                      {item.price}
+                    </span>
                   </div>
                 </div>
               </div>

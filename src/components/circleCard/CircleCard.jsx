@@ -1,7 +1,7 @@
 import { BsThreeDots } from "react-icons/bs";
 export const CircleCard = () => {
   return (
-    <div className="container-fluid">
+    <div className="container">
       <div className="cardWrapper">
         <div className="row text-center">
           <div className="col-3">
