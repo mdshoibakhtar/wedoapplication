@@ -5,8 +5,9 @@ import car2 from "../../assests/images/car-c.jpg";
 import car3 from "../../assests/images/car-b.jpg";
 export const Wrapper = () => {
   const settings = {
-    dots: true,
-    infinite: true,
+    dots: false,
+    infinite: false,
+    autoPlay: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,

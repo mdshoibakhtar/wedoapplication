@@ -11,16 +11,16 @@ export const TopSectionCard = () => {
           <div className="row text-light">
             {data.map((item) => {
               return (
-                <div className="col-6  my-3">
+                <div className="col-6  my-3" key={item.id}>
                   <div className="ms-.5 border rounded-3 cardImg">
                     <figure>
-                      <img src={item.imgUrl} alt="lap" />
+                      <img src={item.imgUrl} alt="lapi" />
                     </figure>
-                    <div className="p-3 text-center">
+                    <div className="p-3">
                       <div>
                         <strong>{item.title}</strong>
                       </div>
-                      <span className="text-warning">{item.price}</span>
+                      <span className="text-muted">{item.price}</span>
                     </div>
                   </div>
                 </div>

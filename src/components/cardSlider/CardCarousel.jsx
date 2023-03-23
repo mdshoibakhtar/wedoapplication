@@ -9,9 +9,9 @@ export const CardCarousel = () => {
   //   console.log(sliderData);
   const settings = {
     dots: false,
-    infinite: true,
+    infinite: false,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 2.5,
     slidesToScroll: 3,
   };
   return (
