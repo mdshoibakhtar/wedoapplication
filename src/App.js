@@ -1,16 +1,15 @@
-import { TopNavigation } from "./components/navBar/topNavigation";
-
+import { Navigate, Route, Routes } from "react-router-dom";
 import "./components/assests/style/style.css"
 import Home from "./Pages";
-import { Footsec } from "./components/footerSection/FootSec";
 
 
 function App() {
   return (
     <div className="d-sm-block d-md-none d-xl-none">
-      <TopNavigation />
-      <Home />
-      <Footsec />
+      <Routes>
+        <Route path="/" element={<Navigate to="/home" />} />
+        <Route path="/home" element={<Home />} />
+      </Routes>
     </div>
   );
 }
