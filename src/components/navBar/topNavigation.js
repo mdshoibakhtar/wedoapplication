@@ -40,7 +40,7 @@ export const TopNavigation = ({ name, ...props }) => {
                                 <img src={olivia} alt="logo" width={"50px"} />
                             </figure>
                             <Offcanvas.Title>
-                                <div className='' style={{ fontSize: "18px" }}>Olivia Johanson</div>
+                                <div style={{ fontSize: "18px" }}>Olivia Johanson</div>
                                 <span className='font-size text-black-50 fw-normal'>oliviajon@mail.com</span>
                             </Offcanvas.Title>
 
