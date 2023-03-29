@@ -89,3 +89,10 @@
 .icon-color {
   color: rgb(199, 207, 214);
 }
+.leftCheron {
+  font-size: 30px;
+  color: #000;
+}
+.outlineserchI {
+  outline: none;
+}

@@ -49,7 +49,7 @@ export const TopNavigation = ({ name, ...props }) => {
                         <Offcanvas.Body>
                             <ul className='unlist'>
                                 <li className='py-0.5 my-0.5'>
-                                    <Link className='d-flex justify-content-between text-decoration-none align-items-center'>
+                                    <Link to={"/home"} className='d-flex justify-content-between text-decoration-none align-items-center' >
                                         <div><span className='icon-color'><FaHome /></span>
                                             <span className='px-3 text-black-50 fw-bold'>Home</span>
                                         </div>
@@ -57,7 +57,7 @@ export const TopNavigation = ({ name, ...props }) => {
                                     </Link>
                                 </li>
                                 <li className='py-0.5 my-0.5'>
-                                    <Link className='d-flex justify-content-between text-decoration-none align-items-center'>
+                                    <Link to={"/products"} className='d-flex justify-content-between text-decoration-none align-items-center'>
                                         <div><span className='icon-color'><RiStackLine /></span>
                                             <span className='px-3 text-black-50 fw-bold'>Products</span>
                                         </div>
